@@ -35,6 +35,7 @@ main{
 }
 .description__place{
     color: var(--dark-blue);
+    font-size: 1.3rem;
 }
 .description__title{
     font: 5rem 'Henny Penny', cursive;
