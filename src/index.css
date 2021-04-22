@@ -1,25 +1,77 @@
-@import 'tailwindcss/dist/base.css';
-@import 'tailwindcss/dist/components.css';
-@import 'tailwindcss/dist/utilities.css';
-
+:root{
+    --blue: #5DADE2;
+    --dark-blue: #2471A3;
+    --soft-gray: #D7DBDD;
+    --soft-white: #F7F9F9;
+    --pink: #EC7063;
+}
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 html{
     font-size: 62.5%;
 }
 body{
-    font-size:  1.6rem;
+    font:  1.6rem sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--soft-white);
 }
-
-.general-button{
-    display: block;
-    margin: auto;
-    padding: 1rem;
-    background-color: aquamarine;
+main{
+    width: 90%;
+    padding: 2rem;
 }
-.images__image{
-    max-width: 30rem;
+.description__place, .description__title, .description__information, .general-button ,.images__container{
     margin: 1rem auto;
 }
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.description__place{
+    color: var(--dark-blue);
+}
+.description__title{
+    font: 5rem 'Henny Penny', cursive;
+}
+.description__image{
+    margin: auto;
+}
+.general-button{
+    display: block;
+    min-width: 10.5rem;
+    padding: 1rem;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.3s;
+}
+.general-button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.general-botton--clear{
+    background-color: var(--pink);
+}
+.images-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images__container{
+    display: flex;
+    align-items: center;
+    min-width: 20rem;
+    max-width: 30rem;
+    min-height: 20rem;
+    background-color: var(--soft-gray);
+}
+.images__image{
+    max-width: 100%;
+    
+}
+
