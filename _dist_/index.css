@@ -46,12 +46,14 @@ main{
 }
 .general-button{
     display: block;
-    min-width: 10.5rem;
+    min-width: 11rem;
+    min-height: 3.8rem;
     padding: 1rem;
     background-color: var(--blue);
     border: none;
     border-radius: 1rem;
     transition: all 0.3s;
+    font-size: 1.4rem;
 }
 .general-button:hover{
     transform: scale(1.1);
