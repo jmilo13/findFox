@@ -12,5 +12,7 @@ Use the "Add image" button and a new photo will be there.
 
 If you want another phothos you can remove all with the "Clean Screen" button.
 ```
+Visite the site:
+https://findafox.netlify.app/
 
 ✨ Enjoy it!!
