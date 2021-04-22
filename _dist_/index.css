@@ -34,6 +34,7 @@ main{
     text-align: center;
 }
 .description__place{
+    min-width: 10rem;
     color: var(--dark-blue);
     font-size: 1.3rem;
 }
